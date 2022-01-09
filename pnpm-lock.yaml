@@ -2,18 +2,22 @@ lockfileVersion: 5.3
 
 specifiers:
   '@material-ui/core': ^4.12.3
+  '@material-ui/data-grid': ^4.0.0-alpha.37
   '@material-ui/icons': ^4.11.2
   '@vitejs/plugin-react': ^1.0.7
   react: ^17.0.2
   react-dom: ^17.0.2
+  react-router-dom: ^6.2.1
   recharts: ^2.1.8
   vite: ^2.7.2
 
 dependencies:
   '@material-ui/core': 4.12.3_react-dom@17.0.2+react@17.0.2
+  '@material-ui/data-grid': 4.0.0-alpha.37_2629d3c6e00800fcf39b643904e951de
   '@material-ui/icons': 4.11.2_fced322086cd04afb0b6feec9e866920
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
+  react-router-dom: 6.2.1_react-dom@17.0.2+react@17.0.2
   recharts: 2.1.8_react-dom@17.0.2+react@17.0.2
 
 devDependencies:
@@ -322,6 +326,23 @@ packages:
       react-transition-group: 4.4.2_react-dom@17.0.2+react@17.0.2
     dev: false
 
+  /@material-ui/data-grid/4.0.0-alpha.37_2629d3c6e00800fcf39b643904e951de:
+    resolution: {integrity: sha512-3T2AG31aad/lWLMLwn1XUP4mUf3H9YZES17dGuYByzkRLCXbBZHBTPEnCctWukajzwm+v0KGg3QpwitGoiDAjA==}
+    engines: {node: '>=12.0.0'}
+    deprecated: The name of the package has changed, more details in https://github.com/mui-org/material-ui-x/releases/tag/v4.0.0
+    peerDependencies:
+      '@material-ui/core': ^4.12.0 || ^5.0.0-beta.0
+      '@material-ui/styles': ^4.11.4 || ^5.0.0-beta.0
+      react: ^17.0.0
+    dependencies:
+      '@material-ui/core': 4.12.3_react-dom@17.0.2+react@17.0.2
+      '@material-ui/utils': 5.0.0-beta.5_react@17.0.2
+      clsx: 1.1.1
+      prop-types: 15.8.1
+      react: 17.0.2
+      reselect: 4.1.5
+    dev: false
+
   /@material-ui/icons/4.11.2_fced322086cd04afb0b6feec9e866920:
     resolution: {integrity: sha512-fQNsKX2TxBmqIGJCSi3tGTO/gZ+eJgWmMJkgDiOfyNaunNaxcklJQFaFogYcFl0qFuaEz1qaXYXboa/bUXVSOQ==}
     engines: {node: '>=8.0.0'}
@@ -413,6 +434,20 @@ packages:
       react-is: 17.0.2
     dev: false
 
+  /@material-ui/utils/5.0.0-beta.5_react@17.0.2:
+    resolution: {integrity: sha512-wtJ3ovXWZdTAz5eLBqvMpYH/IBJb3qMQbGCyL1i00+sf7AUlAuv4QLx+QtX/siA6L7IpxUQVfqpoCpQH1eYRpQ==}
+    engines: {node: '>=12.0.0'}
+    peerDependencies:
+      react: ^17.0.2
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@types/prop-types': 15.7.4
+      '@types/react-is': 17.0.3
+      prop-types: 15.8.1
+      react: 17.0.2
+      react-is: 17.0.2
+    dev: false
+
   /@rollup/pluginutils/4.1.2:
     resolution: {integrity: sha512-ROn4qvkxP9SyPeHaf7uQC/GPFY6L/OWy9+bd9AwcjOAWQwxRscoEyAUD8qCY5o5iL4jqQwoLk2kaTKJPb/HwzQ==}
     engines: {node: '>= 8.0.0'}
@@ -453,6 +488,12 @@ packages:
 
   /@types/prop-types/15.7.4:
     resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==}
+    dev: false
+
+  /@types/react-is/17.0.3:
+    resolution: {integrity: sha512-aBTIWg1emtu95bLTLx0cpkxwGW3ueZv71nE2YFBpL8k/z5czEW8yYpOo8Dp+UUAFAtKwNaOsh/ioSeQnWlZcfw==}
+    dependencies:
+      '@types/react': 17.0.38
     dev: false
 
   /@types/react-transition-group/4.4.4:
@@ -870,6 +911,12 @@ packages:
       function-bind: 1.1.1
     dev: true
 
+  /history/5.2.0:
+    resolution: {integrity: sha512-uPSF6lAJb3nSePJ43hN3eKj1dTWpN9gMod0ZssbFTIsen+WehTmEadgL+kg78xLJFdRfrrC//SavDzmRVdE+Ig==}
+    dependencies:
+      '@babel/runtime': 7.16.7
+    dev: false
+
   /hoist-non-react-statics/3.3.2:
     resolution: {integrity: sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==}
     dependencies:
@@ -1096,6 +1143,27 @@ packages:
       resize-observer-polyfill: 1.5.1
     dev: false
 
+  /react-router-dom/6.2.1_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-I6Zax+/TH/cZMDpj3/4Fl2eaNdcvoxxHoH1tYOREsQ22OKDYofGebrNm6CTPUcvLvZm63NL/vzCYdjf9CUhqmA==}
+    peerDependencies:
+      react: '>=16.8'
+      react-dom: '>=16.8'
+    dependencies:
+      history: 5.2.0
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+      react-router: 6.2.1_react@17.0.2
+    dev: false
+
+  /react-router/6.2.1_react@17.0.2:
+    resolution: {integrity: sha512-2fG0udBtxou9lXtK97eJeET2ki5//UWfQSl1rlJ7quwe6jrktK9FCCc8dQb5QY6jAv3jua8bBQRhhDOM/kVRsg==}
+    peerDependencies:
+      react: '>=16.8'
+    dependencies:
+      history: 5.2.0
+      react: 17.0.2
+    dev: false
+
   /react-smooth/2.0.0_react-dom@17.0.2+react@17.0.2:
     resolution: {integrity: sha512-wK4dBBR6P21otowgMT9toZk+GngMplGS1O5gk+2WSiHEXIrQgDvhR5IIlT74Vtu//qpTcipkgo21dD7a7AUNxw==}
     peerDependencies:
@@ -1188,6 +1256,10 @@ packages:
 
   /regenerator-runtime/0.13.9:
     resolution: {integrity: sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==}
+    dev: false
+
+  /reselect/4.1.5:
+    resolution: {integrity: sha512-uVdlz8J7OO+ASpBYoz1Zypgx0KasCY20H+N8JD13oUMtPvSHQuscrHop4KbXrbsBcdB9Ds7lVK7eRkBIfO43vQ==}
     dev: false
 
   /resize-observer-polyfill/1.5.1:

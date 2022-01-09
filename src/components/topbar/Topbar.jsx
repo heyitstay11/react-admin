@@ -1,5 +1,5 @@
 import './Topbar.css';
-import profilePic from  '../../../public/achilles.jpg'
+import profilePic from  '/achilles.jpg';
 import { NotificationsNone, Language, Settings } from '@material-ui/icons';
 
 const Topbar = () => {
