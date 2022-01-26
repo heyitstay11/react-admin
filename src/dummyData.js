@@ -76,7 +76,7 @@ export const userData = [
     },
     {
       id: 2,
-      username: "Jon Snow",
+      username: "Jane Doe",
       avatar:
         "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       email: "jon@gmail.com",
@@ -85,7 +85,7 @@ export const userData = [
     },
     {
       id: 3,
-      username: "Jon Snow",
+      username: "John Bricks",
       avatar:
         "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       email: "jon@gmail.com",
@@ -94,7 +94,7 @@ export const userData = [
     },
     {
       id: 4,
-      username: "Jon Snow",
+      username: "Mike",
       avatar:
         "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       email: "jon@gmail.com",
@@ -103,7 +103,7 @@ export const userData = [
     },
     {
       id: 5,
-      username: "Jon Snow",
+      username: "Kurtis crew",
       avatar:
         "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       email: "jon@gmail.com",
@@ -112,7 +112,7 @@ export const userData = [
     },
     {
       id: 6,
-      username: "Jon Snow",
+      username: "Danny Marriot",
       avatar:
         "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       email: "jon@gmail.com",
@@ -121,7 +121,7 @@ export const userData = [
     },
     {
       id: 7,
-      username: "Jon Snow",
+      username: "Will Jacobs",
       avatar:
         "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       email: "jon@gmail.com",
@@ -130,7 +130,7 @@ export const userData = [
     },
     {
       id: 8,
-      username: "Jon Snow",
+      username: "Maria Jacobs",
       avatar:
         "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       email: "jon@gmail.com",
@@ -139,7 +139,7 @@ export const userData = [
     },
     {
       id: 9,
-      username: "Jon Snow",
+      username: "Mahesh Shukla",
       avatar:
         "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       email: "jon@gmail.com",
@@ -148,7 +148,7 @@ export const userData = [
     },
     {
       id: 10,
-      username: "Jon Snow",
+      username: "Jhon Simmons",
       avatar:
         "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       email: "jon@gmail.com",
@@ -169,30 +169,30 @@ export const userData = [
     },
     {
       id: 2,
-      name: "Apple Airpods",
+      name: "Apple iPad",
       img:
         "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       stock: 123,
       status: "active",
-      price: "$120.00",
+      price: "$220.00",
     },
     {
       id: 3,
-      name: "Apple Airpods",
+      name: "Samsung S20",
       img:
         "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       stock: 123,
       status: "active",
-      price: "$120.00",
+      price: "$100.00",
     },
     {
       id: 4,
-      name: "Apple Airpods",
+      name: "Boat Headphones",
       img:
         "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       stock: 123,
       status: "active",
-      price: "$120.00",
+      price: "$50.00",
     },
     {
       id: 5,
@@ -223,24 +223,6 @@ export const userData = [
     },
     {
       id: 8,
-      name: "Apple Airpods",
-      img:
-        "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      stock: 123,
-      status: "active",
-      price: "$120.00",
-    },
-    {
-      id: 9,
-      name: "Apple Airpods",
-      img:
-        "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      stock: 123,
-      status: "active",
-      price: "$120.00",
-    },
-    {
-      id: 10,
       name: "Apple Airpods",
       img:
         "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
