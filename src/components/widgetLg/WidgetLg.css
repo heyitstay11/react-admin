@@ -32,6 +32,12 @@
     object-fit: cover;
     margin-right: 10px;
   }
+
+  @media (max-width: 500px) {
+    .widgetLgImg{
+      display: none;
+    }
+  }
   
   .widgetLgDate,.widgetLgAmount{
     font-weight: 300;
