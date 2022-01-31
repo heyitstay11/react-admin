@@ -7,7 +7,7 @@ export default function WidgetSm() {
             <span className="widgetSmTitle">Newly Joined Members</span>
             <ul className="widgetSmList">
                 <li className="widgetSmListItem">
-                    <img src="/achilles.jpg" alt="" className="widgetSmImg" />
+                    <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="" className="widgetSmImg" />
                     <div className="widgetSmUser">
                         <span className="widgetSmUsername">John Doe</span>
                         <span className="widgetSmUserTitle">Software Engg</span>
@@ -18,7 +18,7 @@ export default function WidgetSm() {
                     </button>
                 </li>
                 <li className="widgetSmListItem">
-                    <img src="/achilles.jpg" alt="" className="widgetSmImg" />
+                    <img src="https://randomuser.me/api/portraits/women/15.jpg" alt="" className="widgetSmImg" />
                     <div className="widgetSmUser">
                         <span className="widgetSmUsername">John Doe</span>
                         <span className="widgetSmUserTitle">Software Engg</span>
@@ -29,7 +29,7 @@ export default function WidgetSm() {
                     </button>
                 </li>
                 <li className="widgetSmListItem">
-                    <img src="/achilles.jpg" alt="" className="widgetSmImg" />
+                    <img src="https://randomuser.me/api/portraits/men/25.jpg" alt="" className="widgetSmImg" />
                     <div className="widgetSmUser">
                         <span className="widgetSmUsername">John Doe</span>
                         <span className="widgetSmUserTitle">Software Engg</span>
@@ -40,7 +40,7 @@ export default function WidgetSm() {
                     </button>
                 </li>
                 <li className="widgetSmListItem">
-                    <img src="/achilles.jpg" alt="" className="widgetSmImg" />
+                    <img src="https://randomuser.me/api/portraits/women/25.jpg" alt="" className="widgetSmImg" />
                     <div className="widgetSmUser">
                         <span className="widgetSmUsername">John Doe</span>
                         <span className="widgetSmUserTitle">Software Engg</span>

@@ -1,13 +1,16 @@
 import './Topbar.css';
 import profilePic from  '/achilles.jpg';
-import { NotificationsNone, Language, Settings } from '@material-ui/icons';
+import { NotificationsNone, Language, Settings, Menu, Close } from '@material-ui/icons';
 
-const Topbar = () => {
+const Topbar = ({ setOpenSideBar, isOpen }) => {
     return (
         <div className="topbar">
             <div className="topbarWrapper">
                 <div className="topLeft">
                     <div className="logo">Admin</div>
+                    <div className="menuButton" onClick={() => setOpenSideBar(prev => !prev)}>
+                        {isOpen  ? <Close /> : <Menu />} 
+                    </div>
                 </div>
                 <div className="topRight">
                     <div className="topbarIconContainer">

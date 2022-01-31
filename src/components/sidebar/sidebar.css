@@ -41,3 +41,14 @@
     margin-right: 10px ;
     font-size: 20px !important;
 }
+
+@media (max-width: 700px ) {
+    .sidebar{
+        display: none;
+    }
+    .sidebar.open{
+        display: flex;
+        top:0;
+        z-index: 1;
+    }
+}

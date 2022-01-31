@@ -7,6 +7,23 @@
     z-index: 999;
 }
 
+.topLeft{
+    display: flex;
+    align-items: center;
+}
+
+.menuButton{
+    font-size: 38px;
+    color: darkblue;
+    margin-left: 10px;
+}
+
+@media (min-width: 700px ) { 
+    .menuButton{
+       display: none;
+    }
+}
+
 .topbarWrapper {
     height: 100%;
     padding: 0 20px;

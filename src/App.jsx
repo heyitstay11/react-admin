@@ -9,13 +9,16 @@ import NewUser from "./pages/newUser/NewUser";
 import ProductList from "./pages/productList/ProductList";
 import Product from "./pages/product/Product";
 import NewProduct from "./pages/newProduct/NewProduct";
+import { useState } from "react";
 
 function App() {
+  const [openSideBar, setOpenSideBar] = useState(false);
+
   return (
     <div className="">
-      <Topbar />
+      <Topbar setOpenSideBar={setOpenSideBar} isOpen={openSideBar} />
       <div className="container">
-       <Sidebar />
+       <Sidebar isOpen={openSideBar} />
        <Routes>
          <Route path="/" element={<Home />} />
          <Route path="/users" element={<UserList />} />

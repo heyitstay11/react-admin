@@ -1,7 +1,15 @@
 .productList {
     flex: 4;
+    width: 100%;
 }
 
+@media (max-width: 700px) {
+    .productList{
+        height: 600px;
+        max-width: 94vw;
+        margin: auto;
+    }
+}
 .userListUser {
     display: flex;
     align-items: center;
