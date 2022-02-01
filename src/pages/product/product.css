@@ -22,6 +22,7 @@ cursor: pointer;
 
 .productTop {
 display: flex;
+flex-wrap: wrap;
 }
 
 .productTopLeft,
@@ -76,12 +77,14 @@ box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
 
 .productForm {
 display: flex;
+flex-wrap: wrap;
 justify-content: space-between;
 }
 
 .productFormLeft {
 display: flex;
 flex-direction: column;
+margin-bottom: 0.6em;
 }
 
 .productFormLeft > label {
@@ -112,6 +115,7 @@ margin-right: 20px;
 display: flex;
 flex-direction: column;
 justify-content: space-around;
+min-width: 200px;
 }
 
 .productUpload{

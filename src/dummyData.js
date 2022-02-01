@@ -107,7 +107,7 @@ export const userData = [
     },
     {
       id: 8,
-      username: "Maria Jacobs",
+      username: "Marie Jacobs",
       avatar: "https://randomuser.me/api/portraits/men/91.jpg",
       email: "jon@gmail.com",
       status: "active",

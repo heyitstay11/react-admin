@@ -5,6 +5,6 @@
 .homeWidgets{
     display: flex;
     flex-wrap: wrap;
-    margin: 25px;
-    overflow-x: scroll;
+    gap: 15px;
+    /* overflow-x: scroll; */
 }

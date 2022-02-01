@@ -9,7 +9,7 @@ const Topbar = ({ setOpenSideBar, isOpen }) => {
                 <div className="topLeft">
                     <div className="logo">Admin</div>
                     <div className="menuButton" onClick={() => setOpenSideBar(prev => !prev)}>
-                        {isOpen  ? <Close /> : <Menu />} 
+                        {isOpen  ? <Close className='menuIcon' /> : <Menu className='menuIcon' />} 
                     </div>
                 </div>
                 <div className="topRight">

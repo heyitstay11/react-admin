@@ -6,7 +6,6 @@
     top: 0;
     z-index: 999;
 }
-
 .topLeft{
     display: flex;
     align-items: center;
@@ -16,6 +15,10 @@
     font-size: 38px;
     color: darkblue;
     margin-left: 10px;
+}
+
+.menuIcon{
+    font-size: 2rem !important;
 }
 
 @media (min-width: 700px ) { 
