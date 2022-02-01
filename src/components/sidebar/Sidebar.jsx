@@ -11,23 +11,40 @@ import {
   DynamicFeed,
   ChatBubbleOutline,
   WorkOutline,
-  Report,
+  Report 
 } from "@material-ui/icons";
 import { Link } from "react-router-dom";
 
-export default function Sidebar({ isOpen }) {
+export default function Sidebar({ isOpen, setOpenSideBar }) {
   return (
     <div className={`sidebar ${isOpen === true ? 'open': ''}`}>
       <div className="sidebarWrapper">
         <div className="sidebarMenu">
           <h3 className="sidebarTitle">Dashboard</h3>
           <ul className="sidebarList">
-            <Link to="/" className="link">
-              <li className="sidebarListItem active">
+            <li className="sidebarListItem active" onClick={() => setOpenSideBar(false)}>
+              <Link to="/" className="link">
                 <LineStyle className="sidebarIcon" />
                 Home
-              </li>
-            </Link>
+              </Link>
+            </li>
+            <li className="sidebarListItem" onClick={() => setOpenSideBar(false)}>
+              <Link to="/users" className="link">
+                  <PermIdentity className="sidebarIcon" />
+                  Users
+              </Link>
+            </li>
+            <li className="sidebarListItem" onClick={() => setOpenSideBar(false)}>
+              <Link to="/products" className="link">
+                <Storefront className="sidebarIcon" />
+                Products
+                </Link>
+            </li>
+          </ul>
+        </div>
+        <div className="sidebarMenu">
+          <h3 className="sidebarTitle">Quick Menu</h3>
+          <ul className="sidebarList">
             <li className="sidebarListItem">
               <Timeline className="sidebarIcon" />
               Analytics
@@ -36,23 +53,6 @@ export default function Sidebar({ isOpen }) {
               <TrendingUp className="sidebarIcon" />
               Sales
             </li>
-          </ul>
-        </div>
-        <div className="sidebarMenu">
-          <h3 className="sidebarTitle">Quick Menu</h3>
-          <ul className="sidebarList">
-            <Link to="/users" className="link">
-            <li className="sidebarListItem">
-                <PermIdentity className="sidebarIcon" />
-                Users
-            </li>
-            </Link>
-            <Link to="/products" className="link">
-              <li className="sidebarListItem">
-                <Storefront className="sidebarIcon" />
-                Products
-              </li>
-            </Link>
             <li className="sidebarListItem">
               <AttachMoney className="sidebarIcon" />
               Transactions

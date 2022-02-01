@@ -58,9 +58,10 @@
     position: absolute;
     top: -5px;
     right: 2px;
-    background-color: red;
-    height: 15px;
-    width: 15px;
+    background-color: rgb(0, 24, 163);
+    color: white;
+    height: 18px;
+    width: 18px;
     border-radius: 50%;
     display: flex;
     align-items: center;

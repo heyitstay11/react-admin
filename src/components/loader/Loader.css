@@ -1,0 +1,28 @@
+.loaderContainer{
+    flex:4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.loadingIcon{
+    font-size: 6rem !important;
+    animation-name: rotate;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(359deg);
+    }
+}
+
+.loadingText{
+    font-size: 1.4rem;
+}
